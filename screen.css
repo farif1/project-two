@@ -14,3 +14,9 @@ html {
   padding: 0 1em;
   background-image: url(CSSGrid.png);
 }
+
+a {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
