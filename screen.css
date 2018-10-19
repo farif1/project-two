@@ -45,3 +45,12 @@ h4 {
 p {
   padding-bottom: 11px;
 }
+
+.heading2 {
+  display: flex;
+  justify-content: center;
+}
+.personal {
+  display: flex;
+  justify-content: space-around;
+}
