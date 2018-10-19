@@ -12,11 +12,28 @@ html {
   line-height: 1.222em; /* 22px / 18 = 1.222em */
   font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
   padding: 0 1em;
-  background-image: url(CSSGrid.png);
+  /*background-image: url(CSSGrid.png);*/
 }
 
 a {
   display: flex;
   justify-content: flex-start;
   flex-direction: row;
+}
+
+h1, h2 {
+ font-size: 27px;
+ line-height: 33px;
+ padding-bottom: 11px;
+ color: blue;
+}
+
+h3 {
+  font-size: 22px;
+  line-height: 30px;
+  padding-bottom: 11px;
+}
+
+.heading3 {
+  padding-top: 11px;
 }
