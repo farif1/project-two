@@ -37,3 +37,11 @@ h3 {
 .heading3 {
   padding-top: 11px;
 }
+
+h4 {
+  font-weight: 500;
+}
+
+p {
+  padding-bottom: 11px;
+}
