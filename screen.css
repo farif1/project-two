@@ -15,17 +15,18 @@ html {
   /*background-image: url(CSSGrid.png);*/
 }
 
-a {
+.pages {
   display: flex;
-  justify-content: flex-start;
   flex-direction: row;
+  justify-content: flex-end;
+  list-style-type: none;
 }
 
 h1, h2 {
  font-size: 27px;
  line-height: 33px;
  padding-bottom: 11px;
- color: blue;
+ color: maroon;
 }
 
 h3 {
@@ -53,4 +54,18 @@ p {
 .personal {
   display: flex;
   justify-content: space-around;
+  list-style-type: none;
+}
+
+ul {
+  padding: 0 0 1.222em 1.222em;
+  list-style-type: square;
+}
+
+.nolist {
+  list-style-type: none;
+}
+
+.disc {
+  list-style-type: disc;
 }
