@@ -81,3 +81,12 @@ ul {
   list-style-type: none;
   padding: 0 0 1.222em 0;
 }
+
+@media screen and (max-width: 650px) {
+  .personal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style-type: none;
+  }
+}
