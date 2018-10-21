@@ -7,19 +7,14 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* stylelint-enable */
 
 /* Begin site styles below */
+
+/* Basic html layout */
 html {
   font-size: 1.125em; /* 18px / 16 px = 1.125em */
   line-height: 1.222em; /* 22px / 18 = 1.222em */
   font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
   padding: 0 1em;
   /*background-image: url(CSSGrid.png);*/
-}
-
-.pages {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  list-style-type: none;
 }
 
 h1, h2 {
@@ -35,16 +30,29 @@ h3 {
   padding-bottom: 11px;
 }
 
-.heading3 {
-  padding-top: 11px;
-}
-
 h4 {
   font-weight: 500;
 }
 
 p {
+  text-indent: 1in;
   padding-bottom: 11px;
+}
+
+ul {
+  padding: 0 0 1.222em 1.222em;
+  list-style-type: square;
+}
+
+.pages {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  list-style-type: none;
+}
+
+.heading3 {
+  padding-top: 11px;
 }
 
 .heading2 {
@@ -57,15 +65,19 @@ p {
   list-style-type: none;
 }
 
-ul {
-  padding: 0 0 1.222em 1.222em;
-  list-style-type: square;
-}
-
 .nolist {
   list-style-type: none;
 }
 
 .disc {
   list-style-type: disc;
+}
+
+.noindent {
+  text-indent: 0;
+}
+
+.experience {
+  list-style-type: none;
+  padding: 0 0 1.222em 0;
 }
