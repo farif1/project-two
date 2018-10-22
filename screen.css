@@ -51,6 +51,10 @@ ul {
   list-style-type: none;
 }
 
+.pages li {
+  padding-left: 5px;
+}
+
 .heading3 {
   padding-top: 11px;
 }
@@ -59,9 +63,11 @@ ul {
   display: flex;
   justify-content: center;
 }
+
 .personal {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: center;
   list-style-type: none;
 }
 
@@ -82,11 +88,11 @@ ul {
   padding: 0 0 1.222em 0;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (min-width: 650px) {
   .personal {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
     list-style-type: none;
   }
 }
