@@ -44,6 +44,10 @@ ul {
   list-style-type: square;
 }
 
+a {
+  text-decoration: none;
+}
+
 .pages {
   display: flex;
   flex-direction: row;
@@ -94,5 +98,11 @@ ul {
     flex-direction: row;
     justify-content: space-around;
     list-style-type: none;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  #resume {
+    padding-left: 20px;
   }
 }
