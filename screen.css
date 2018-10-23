@@ -12,22 +12,22 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 html {
   font-size: 1.125em; /* 18px / 16 px = 1.125em */
   line-height: 1.222em; /* 22px / 18 = 1.222em */
-  font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   padding: 0 1em;
   /*background-image: url(CSSGrid.png);*/
 }
 
 h1, h2 {
- font-size: 27px;
- line-height: 33px;
- padding-bottom: 11px;
- color: maroon;
+  font-size: 1.5em; /* 27px / 18px = 1.5em */
+  line-height: 1.83333333em; /* 33px / 18 px = 1.83333333em */
+  padding-bottom: 0.6111111em; /* 11px / 18px = 0.6111111em */
+  color: maroon;
 }
 
 h3 {
-  font-size: 22px;
-  line-height: 30px;
-  padding-bottom: 11px;
+  font-size: 1.222em; /* 22px / 18px = 1.222em */
+  line-height: 1.66666667em; /* 30px / 18px = 1.66666667em */
+  padding-bottom: 0.6111111em; /* 11px / 18px = 0.6111111em */
 }
 
 h4 {
@@ -35,8 +35,7 @@ h4 {
 }
 
 p {
-  text-indent: 1in;
-  padding-bottom: 11px;
+  padding-bottom: 0.6111111em; /* 11px / 18px = 0.6111111em */
 }
 
 ul {
@@ -56,11 +55,11 @@ a {
 }
 
 .pages li {
-  padding-left: 5px;
+  padding-left: 0.27777778em; /* 5px / 18px = 0.27777778em */
 }
 
 .heading3 {
-  padding-top: 11px;
+  padding-top: 0.6111111em; /* 11px / 18px = 0.6111111em */
 }
 
 .heading2 {
@@ -83,10 +82,6 @@ a {
   list-style-type: disc;
 }
 
-.noindent {
-  text-indent: 0;
-}
-
 .experience {
   list-style-type: none;
   padding: 0 0 1.222em 0;
@@ -103,6 +98,6 @@ a {
 
 @media screen and (min-width: 900px) {
   #resume {
-    padding-left: 20px;
+    padding-left: 1.1111111em; /* 20px / 18px = 1.1111111em */
   }
 }
