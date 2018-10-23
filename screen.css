@@ -49,6 +49,23 @@ a {
   text-decoration: none;
 }
 
+img {
+  display: block;
+  border-radius: 4px;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+figcaption {
+  text-align: center;
+}
+
+.image li {
+  display: flex;
+  list-style-type: none;
+}
+
 .pages {
   display: flex;
   flex-direction: row;
@@ -74,6 +91,7 @@ a {
   flex-direction: column;
   justify-content: center;
   list-style-type: none;
+  text-align: center;
 }
 
 .nolist {
