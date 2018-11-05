@@ -29,6 +29,7 @@ h3 {
   font-size: 1.222em; /* 22px / 18px = 1.222em */
   line-height: 1.66666667em; /* 30px / 18px = 1.66666667em */
   padding-bottom: 0.6111111em; /* 11px / 18px = 0.6111111em */
+  padding-top: 0.6111111em; /* 11px / 18px = 0.6111111em */
   color: #ff3333;
 }
 
@@ -51,12 +52,7 @@ a {
 
 img {
   display: block;
-  transform: rotate(90deg);
-  padding-top: 1.83333333em; /* 33px / 18px = 1.83333333em */
-  border-radius: 0.222222em; /* 4px / 18px = 0.222222em */
-  width: 13.8888889em; /* 250px / 18px = 13.8888889em */
-  margin-left: auto;
-  margin-right: auto;
+  max-width: 100%;
 }
 
 figcaption {
@@ -81,11 +77,7 @@ figcaption {
   padding-left: 0.27777778em; /* 5px / 18px = 0.27777778em */
 }
 
-.heading3 {
-  padding-top: 0.6111111em; /* 11px / 18px = 0.6111111em */
-}
-
-.heading2 {
+.resumetitle {
   display: flex;
   justify-content: center;
 }
