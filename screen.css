@@ -137,7 +137,7 @@ figcaption {
     text-align: center;
     margin-left: 1em;
     padding: 0.2222222em; /* 4px / 18px = 0.22222222em */
-    border: 0.11111111em solid maroon; /* 2px / 18px = 0.1111111em */
+    border: 0.11111111em solid black; /* 2px / 18px = 0.1111111em */
   }
 }
 
