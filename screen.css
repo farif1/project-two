@@ -72,7 +72,8 @@ figcaption {
   list-style-type: none;
 }
 
-.pages {
+.pages,
+#navigation {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -107,6 +108,14 @@ figcaption {
 .experience {
   list-style-type: none;
   padding: 0 0 1.222em 0;
+}
+
+.js .pages {
+  display: none;
+}
+
+.js .pages.visible {
+  display: block;
 }
 
 @media screen and (min-width: 450px) {
