@@ -157,8 +157,17 @@ figcaption {
 }
 
 @media screen and (min-width: 900px) {
-  #resume,
   #schedule {
     padding-left: 2.77777778em; /* 50px / 18px = 2.77777778em */
   }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }
+
+@media screen and (min-width: 1150px) {
+  #resume {
+    padding-left: 2.77777778em; /* 50px / 18px = 2.77777778em */
+  }
