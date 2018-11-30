@@ -17,7 +17,7 @@ navigation.insertBefore(nav_heading, nav_list);
 var menu_button = document.querySelector('#menu-button');
 menu_button.addEventListener('click', function() {
   nav_list.classList.toggle('visible');
-})
+});
 
 // change the cursor when hovering over the menu button
   document.querySelector("#menu-button").style.cursor = "pointer";
